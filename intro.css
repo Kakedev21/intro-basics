@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Roboto:wght@100;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: #000;
+}
+
+nav h1 {
+  color: #fff;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 14px;
+}
+.main-page {
+  padding: 3%;
+}
+.row {
+  display: flex;
+}
+.col-1 {
+  flex-basis: 50%;
+}
+.col-1 h1 {
+  margin-top: 250px;
+}
+.col-2 img {
+  width: 600px;
+}
+.skills {
+  display: flex;
+}
+
+.skills i {
+  margin: 50px 14px;
+  width: 30px;
+  cursor: pointer;
+  font-size: 30px;
+  color: #000;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3%;
+  background-color: #f2f2f2;
+}
+
+footer h3 {
+  margin-bottom: 15px;
+}
+
+.footerline {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.socialmedia i {
+  font-size: 25px;
+  color: #000;
+  margin: 20px;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+}
+
+.contact h1 {
+  margin: 50px 0;
+}
+.contact-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-container form {
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact-container form input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.contact-container form textarea {
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 300px;
+}
+
+.contact-container form button {
+  border: none;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 9px;
+  border: 1px solid #000;
+  font-weight: bold;
+}
